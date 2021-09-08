@@ -1,0 +1,121 @@
+ul,li,.logo{margin: 0;padding: 0;box-sizing: border-box; font-family: "HP Simplified Light", "Arial";font-weight: bold;}
+nav::after{content: ''; clear: both; display: table;}
+.logo img{float: left;  padding-left: 20px;padding-top: 1px; height:60px; width: 70px;}
+nav ul{float: left; list-style: none; margin-right: 40px; position: relative;}
+nav ul li{ display: inline-block;  margin: 0 5px;}
+nav ul li a{color: black; text-decoration: none; line-height: 50px; font-size: 18px; padding: 8px 8px;}
+nav ul ul{position: absolute; top: 90px;  border-top: 3px solid cyan; opacity: 0; visibility: hidden;transition:top .4s; }
+nav ul ul li{position: relative; margin: 0;padding: 0; width: 180px; float: none; display: list-item; border-bottom: 1px solid rgba(0,0,0,0.3); background: white;}
+nav ul li a:hover{ color: cyan;text-shadow: 1px 1px 5px blue}
+nav ul ul li a:hover{color:deeppink; box-shadow: none;text-shadow: 2px 3px 5px pink}
+nav ul li:hover > ul{opacity: 1; visibility: visible; top: 50px;}
+nav ul ul li a{line-height: 40px;}
+.slide img{width: 100%; height: 600px;margin-top: 8px; object-position: center;}
+
+.search_bar{padding:1px;font-size:2.4rem;float: left;}
+.search_bar input{margin:10px 0px 0px 0px;padding: 20px;width: 300px;height: 20px;}
+.search_bar img {margin-top: 10px;height: 1.5rem;position: absolute;top: 1.2rem;left: 800px;border: white;}
+
+.button:hover{cursor: pointer;}
+.search_bar:hover+.button{right: 0;top: 1.2rem;}
+.search_bar::placeholder{opacity: 5;}
+.cart img{border: 1px solid white;margin-top: 10px; margin-left: 80px;}
+.cart img:hover{cursor: pointer;}
+.login input {background-color:blue; margin-right:150px; margin-top: -45px; color: white;padding: 12px;float: right;width: 100px;border-radius: 5px;}
+.login input:hover{color: black; background: white; cursor: pointer;}
+
+.dekstop_wrap{margin-top: 20px;}
+.dekstop_wrap img{width:100%;height:500px;}
+.dekstop_wrap h1{text-align: center;color: white;margin: -400px 0px 0px 70px;font-size: 35px;letter-spacing: 4;font-family: "HP Simplified Regular";}
+.dekstop_wrap h4{text-align: center;color: white;font-size: 25px;margin-left: 100px;font-family: "HP Simplified Regular";}
+
+.d1{width:400px;height: 400px;margin-top: 200px;margin-left: 60px;float: left;padding-left:10px;position:relative;}
+.d2{width:400px;height: 400px;margin-top: 150px;margin-left: 80px;float: left;padding-left:10px;position:relative;}
+.d3{width:400px;height: 400px;margin-top: 150px;margin-left: 80px;float: left;padding-left:10px;position:relative;}
+.d1 h2{font-family: "HP Simplified Light", "Arial";margin: 10px 90px 0px 0px;text-align: center;}
+.d1 h5{margin: 10px 90px 0px 0px;font-size:20px;font-family: "HP Simplified Light", "Arial";text-align: center;}
+.d1 p{margin: 10px 90px 0px 0px;font-size:20px;font-family: "HP Simplified Light", "Arial";text-align: center;}
+.d2 h2{font-family: "HP Simplified Light", "Arial";text-align: center;margin-top: 10px;margin: 10px 90px 0px 0px;}
+.d2 h5{margin: 10px 90px 0px 0px;font-size:20px;font-family: "HP Simplified Light", "Arial";text-align: center;}
+.d2 p{margin: 10px 90px 0px 0px;font-size:20px;font-family: "HP Simplified Light", "Arial";text-align: center;}
+.d3 h2{font-family: "HP Simplified Light", "Arial";text-align: center;margin-top: 10px;margin: 10px 90px 0px 0px;}
+.d3 h5{margin: 10px 90px 0px 0px;font-size:20px;font-family: "HP Simplified Light", "Arial";text-align: center;}
+.d3 p{margin: 10px 90px 0px 0px;font-size:20px;font-family: "HP Simplified Light", "Arial";text-align: center;}
+.d1 span,.d2 span{font-size: 20px;margin: 20px 0px 0px 70px;}
+.d3 img{width: 300px;height: 200px;margin-top: 10px;}
+
+
+.btn{padding: 10px  25px;border-radius: 5px;background-color:whitesmoke;font-weight: bold;color: blue;margin-left: 30px;cursor: pointer;}
+.btn1{padding: 10px  25px;border-radius: 5px;background-color:blue;font-weight: bold;color:white;cursor: pointer;}
+.btn2{padding: 10px  25px;border-radius: 5px;background-color:blue;font-weight: bold;color:white;margin-left: 100px;cursor: pointer;}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover{color: blue;background-color:white;}
+.btn:hover{color: whitesmoke;background-color:rgb(67, 67, 241);}
+.btn3,.btn4{padding: 10px  25px;border-radius: 5px;background-color:blue;font-weight: bold;color:white;margin: 450px 0px 0px -250px;cursor: pointer;float: left;}
+.btn5,.btn6,.btn7{padding: 10px  25px;border-radius: 5px;background-color:blue;
+  font-weight: bold;color:white;margin:10px 0px 0px 100px ;cursor: pointer;float: left;}
+  .btn5:hover,.btn6:hover,.btn7:hover{color: black;background-color: white;}
+.btnshop{padding: 10px  25px;border-radius: 5px;border: 1px solid white;position: absolute;
+  font-weight: bold;color:white;margin:40px 0px 0px 700px ;cursor: pointer;float: left;background: #000;}
+  .btnshop:hover{color: black;background-color: white;}
+
+  .btn8:hover{color: blue;background-color:white;}
+.btn8{padding: 10px  25px;border-radius: 5px;background-color:transparent;position: absolute;border: 1px solid white;
+  font-weight: bold;width: 150px;
+  color:white;margin: 150px 0px 0px 300px;cursor: pointer;float: left;text-align: center;}
+
+.factor{background-color: whitesmoke;width: 100%;height: 700px;margin: 800px 0px 0px 0px;}
+
+.factor h1{font-family: "HP Simplified Light", "Arial";font-weight: 45;text-align: center;font-size: 40px;font-weight: bold;margin-top: 50px;}
+
+.factor img{ box-shadow: 2px 10px 12px rgba(0,0,0,0.3);float: left;width: 400px;height: 300px;margin-left: 200px;padding-left:10px ;
+    margin-top: 50px;border:1px solid white;background-color: #fff;}
+  
+ .factor h2{font-family: "HP Simplified Light", "Arial";font-weight: 35;text-align:left;font-size: 30px;color: grey;margin-top: 390px;float: left;margin-left: -250px;}
+.shop{width: 100%;height: 700px;background-color: whitesmoke;margin-top: 60px;}
+*{font-family: "HP Simplified Light", "Arial";}
+.shop1{float: left;width: 20%;height: 400px;background-color: white;
+  box-shadow: 2px 10px 12px rgba(0,0,0,0.3);margin: 50px 0px 0px 230px;}
+
+.shop2{box-shadow: 2px 10px 12px rgba(0,0,0,0.3);float: left;
+  width: 20%;height: 400px;background-color: white;margin: 50px 0px 0px 70px;}
+
+  .shop3{box-shadow: 2px 10px 12px rgba(0,0,0,0.3);float: left;
+    width: 20%;height: 400px;background-color: white;margin: 50px 0px 0px 70px;}
+  
+.shop1 img,.shop2 img,.shop3 img{padding: 20px;margin: 30px 0px 0px 30px;width:200px;height:150px}
+.shop1 p,.shop2 p,.shop3 p{text-align: center;}
+.shop1 h1,.shop2 h1,.shop3 h1{margin: 20px 0px 0px 0px;
+  text-align: center;color: black;font-size: 23px;letter-spacing: normal;}
+.shop h1{text-align: center;margin: 20px 0px 0px 0px;}
+  .guide img{margin: 50px 0px 0px 250px;height: 200px;width: 60%;position: absolute;}
+  .dimg img{width: 100%;height: 250px;}
+  .dimg h1{color: white;margin: -180px 0px 0px 0px;text-align: center;}
+  .guide h1{margin: 80px 0px 0px 300px;color: white;font-size: 20px;position: absolute;}
+  .guide ul li{margin: 120px 0px 0px 300px;color: white;font-size: 15px;list-style:disc;position: absolute;}
+  .guide ul li:hover{color: black;text-decoration: underline;}
+  .footer p{text-align: left;padding: 10px;font-weight: bold;font-family: "HP Simplified Light", "Arial";}
+.footer  img{width: 25px;height: 20px;margin-left: 140px;float: left;margin-top: -40px}
+
+ h3{font-family: "HP Simplified Light", "Arial";font-size: 18px;} 
+h6{color: white;margin: -40px 0px 0px 180px;font-size: 17px;}
+  .footer {background:rgb(119, 119, 121);height:440px;margin-top: 400px;}
+  .footer1,.footer2,.footer3,.footer4{float: left;margin: 0;padding: 0;padding-left: 90px;line-height: 30px;}
+  .footer1 ul li a{text-decoration: none;color: white;font-size: 15px;}.footer1 ul li  {list-style-type: none;}
+  .footer1 ul li:hover a{color: cyan;text-shadow: 1px 1px 5px blue}
+  .footer2 ul li a{text-decoration: none;color: white;font-size: 15px;}.footer2 ul li  {list-style-type: none;}
+  .footer2 ul li:hover a{color: cyan;text-shadow: 1px 1px 5px blue}
+  .footer3 ul li a{text-decoration: none;color: white;font-size: 15px;}.footer3 ul li  {list-style-type: none;}
+  .footer3 ul li:hover a{color: cyan;text-shadow: 1px 1px 5px blue}
+  .footer4 ul li a{text-decoration: none;color: white;font-size: 15px;}.footer4 ul li  {list-style-type: none;}
+  .footer4 ul li:hover a{color: cyan;text-shadow: 1px 1px 5px blue}
+  
+  
+  .footer-icons h3{margin: 0;padding: 0;margin-right: 450px;float: right;font-family: 'HPSimplifiedLight',arial;}
+  
+  .footer-icons{margin-top: 40px;line-height: 15px;margin: 0;padding: 0;}
+  .footer-icons a{margin: 20px 0px 0px -50px;float: left;}
+  .footer-icons a img:hover{opacity: 0.4}
+  
+  .footer-icons img{ display: inline-block;
+     width: 25px;height: 20px;cursor: pointer;border-radius: 4px;
+     font-size: 20px;color: #ffffff;text-align: center;margin: 25px 40px 0px 70px;}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+      ul,li,.logo{margin: 0;padding: 0;box-sizing: border-box; font-family: "HP Simplified Light", "Arial";font-weight: bold;}
+nav::after{content: ''; clear: both; display: table;}
+.logo img{float: left;  padding-left: 20px;padding-top: 1px; height:60px; width: 70px;}
+nav ul{float: left; list-style: none; margin-right: 40px; position: relative;}
+nav ul li{ display: inline-block;  margin: 0 5px;}
+nav ul li a{color: black; text-decoration: none; line-height: 50px; font-size: 18px; padding: 8px 8px;}
+nav ul ul{position: absolute; top: 90px;  border-top: 3px solid cyan; opacity: 0; visibility: hidden;transition:top .4s; }
+nav ul ul li{position: relative; margin: 0;padding: 0; width: 180px; float: none; display: list-item; border-bottom: 1px solid rgba(0,0,0,0.3); background: white;}
+nav ul li a:hover{ color: cyan;text-shadow: 1px 1px 5px blue}
+nav ul ul li a:hover{color:deeppink; box-shadow: none;text-shadow: 2px 3px 5px pink}
+nav ul li:hover > ul{opacity: 1; visibility: visible; top: 50px;}
+nav ul ul li a{line-height: 40px;}
+.slide img{width: 100%; height: 600px;margin-top: 8px; object-position: center;}
+
+.search_bar{padding:1px;font-size:2.4rem;float: left;}
+.search_bar input{margin:10px 0px 0px 0px;padding: 10px;width: 300px;height: 20px;}
+.search_bar img {margin-top: 10px;height: 1.5rem;position: absolute;top: 1.2rem;left: 800px;border: white;}
+
+.button:hover{cursor: pointer;}
+.cart img{border: 1px solid white;margin-top: 10px; margin-left: 80px;}
+.cart img:hover{cursor: pointer;}
+.login input {background-color:blue; margin-right:150px; margin-top: -45px; color: white;padding: 12px;float: right;width: 100px;border-radius: 5px;}
+.login input:hover{color: black; background: white; cursor: pointer;}
+
+ 
+  .login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .login-page .form .login{
+    margin-top: -31px;
+  margin-bottom: 26px;
+  }
+  .form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 300px;
+    margin: 0 auto 100px -300px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+    border: 1px solid black;
+  }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4f58ff;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;font-weight: bold;
+  }
+  .form button:hover{background-color: white;border:1px solid blue;color: blue;}
+  .form .message 
+  {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .form .message a
+  {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  
+  .footer p{text-align: left;padding: 10px;font-weight: bold;font-family: "HP Simplified Light", "Arial";}
+.footer  img{width: 25px;height: 20px;margin-left: 140px;float: left;margin-top: -40px}
+
+ h3{font-family: "HP Simplified Light", "Arial";font-size: 18px;} 
+h6{color: white;margin: -40px 0px 0px 180px;font-size: 17px;}
+  .footer {background:rgb(119, 119, 121);height:440px;margin-top: 400px;}
+  .footer1,.footer2,.footer3,.footer4{float: left;margin: 0;padding: 0;padding-left: 90px;line-height: 30px;}
+  .footer1 ul li a{text-decoration: none;color: white;font-size: 15px;}.footer1 ul li  {list-style-type: none;}
+  .footer1 ul li:hover a{color: cyan;text-shadow: 1px 1px 5px blue}
+  .footer2 ul li a{text-decoration: none;color: white;font-size: 15px;}.footer2 ul li  {list-style-type: none;}
+  .footer2 ul li:hover a{color: cyan;text-shadow: 1px 1px 5px blue}
+  .footer3 ul li a{text-decoration: none;color: white;font-size: 15px;}.footer3 ul li  {list-style-type: none;}
+  .footer3 ul li:hover a{color: cyan;text-shadow: 1px 1px 5px blue}
+  .footer4 ul li a{text-decoration: none;color: white;font-size: 15px;}.footer4 ul li  {list-style-type: none;}
+  .footer4 ul li:hover a{color: cyan;text-shadow: 1px 1px 5px blue}
+  
+  
+  .footer-icons h3{margin: 0;padding: 0;margin-right: 450px;float: right;font-family: 'HPSimplifiedLight',arial;}
+  
+  .footer-icons{margin-top: 40px;line-height: 15px;margin: 0;padding: 0;}
+  .footer-icons a{margin: 20px 0px 0px -50px;float: left;}
+  .footer-icons a img:hover{opacity: 0.4}
+  
+  .footer-icons img{ display: inline-block;
+     width: 25px;height: 20px;cursor: pointer;border-radius: 4px;
+     font-size: 20px;color: #ffffff;text-align: center;margin: 25px 40px 0px 70px;}
+
+
+
+
+
+  .hdbackground{background-image: url(Images/hpsigninimg.jpg);
+    background-repeat: no-repeat;height: 700px;margin: 30px 0px 0px 150px;object-fit: cover;}
+    .login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+  </style>
+  </head>
+
+<body>
+    <div class="logo"><a href="#"><img src="Images/HP_logo.png" alt="Logo"></a></div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Explore</a>
+            <ul>
+                <li><a href="ink&toner.html">INK AND TONER</a></li>
+                <li><a href="gaming.html">GAMING</a></li>
+               <li><a href="buying guides.html">BUYING GUIDE</a></li>
+            </ul></li>
+            <li><a href="">Shop</a>
+                <ul>
+                   <li><a href="All Laptop.html">All LAPTOPS</a></li>
+                    <li><a href="monitors.html">MONITORS</a></li>
+                    <li><a href="dekstop.html">DEKSTOP</a></li>
+                    <li><a href="ink&toner.html">INK & TONER</a></li>
+                    <li><a href="printer.html">PRINTERS</a></li>
+                    <li><a href="scanner.html">SCANNERS</a></li>
+                    <li><a href="buying guides.html">BUYING GUIDE</a></li>
+                    <li><a href="Accessories.html">ACCESSORIES</a></li>
+                </ul> </li>
+            <li><a href="#">Support</a>
+                <ul>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="H.T.O.html">HOW TO ORDER</a></li>
+                    <li><a href="carepack.html">CARE PACK</a></li>
+                    <li><a href="storeFAQ.html">STORE FAQ</a></li>
+                    <li><a href="payment.html">PAYMENT</a></li>
+                    <li><a href="Return Policy.html">RETURN POLICY</a></li>
+                </ul></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search_bar">
+            <input type="text" name="search" placeholder="What can we help you find today?">
+            <img src="Images/Search-Icon.png" alt="search icon" class="button" width="32" height="10">
+            </div>
+        
+            <div class="cart">
+            <img src="Images/cart.png" alt="cart"width="40"height="40">
+            </div>
+           </nav>
+    
+<div class="hdbackground">
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>LOGIN</h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+        
+        <form class="login-form">
+          <input type="text" class="login-input" name="username"placeholder="username" required>
+          <input type="password"  class="login-input" name="Password"placeholder="password" required>
+          <button>login</button>
+          <p class="message">Not registered? <a href="register.html">Create an account</a></p>
+        </form>
+       
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+  <footer class="footer">
+    <p>Country/region:</p><img src="Images/india.png" alt="Flag"width="20px"height="20px">
+    <h6>india</h6><br><hr>
+
+   <div class="footer1">
+   <ul>
+       <h3  style="margin: 10px 0px 10px 0px;">About us</h3>
+       <li><a href="contact.html">CONTACT HP</a></li>
+       <li><a href="Buying guides.html">BUYING GUIDES</a></li>
+       
+   </ul>
+   </div>
+   <div class="footer2">
+   <ul>
+   <h3 style="margin: 10px 0px 10px 0px;">SHOP</h3>
+       <li><a href="All Laptop.html">ALL LAPTOPS</a></li>
+       <li><a href="monitors.html">MONITORS</a></li>
+       <li><a href="dekstop.html">DEKSTOPS</a></li>
+       <li><a href="Ink&toner.html"">INK & TONER</a></li>
+       <li><a href="printer.html">PRINTER</a></li>
+       <li><a href="Gaming.html">GAMING</a></li>
+       <li><a href="Accessories.html">ACCESORIES</a></li>
+   </ul>
+   </div>
+   <div class="footer3">
+   <ul>
+       <h3 style="margin: 10px 0px 10px 0px;">Support</h3>
+       <li><a href="aboutus.html">ABOUT US</a></li>
+       <li><a href="storeFAQ.html">STORE FAQ</a></li>
+       <li><a href="H.T.O.html">HOW TO ORDER</a></li>
+       <li><a href="payment.html">PAYMENT</a></li>
+       <li><a href="Return Policy.html">RETURN POLICY</a></li>
+       
+   </ul>
+   </div>
+  
+
+   <div class="footer-icons">
+    <br> 
+<h3 style="padding: 0px;margin-right: 650px;">Stay Connected</h3>
+ <a href="https://www.facebook.com/HPIndia/"><img style="margin-left: 250px;" src="Images/fbicon.png" alt="fb"width="40px"height="40px"></a>
+       <a href="https://twitter.com/hpindia/"><img src="Images/twitter.png" alt="insta"width="40px"height="40px"></a>
+      
+   </div>
+</footer>
+
+</body>
+</html>

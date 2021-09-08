@@ -1,0 +1,84 @@
+ul,li,.logo{margin: 0;padding: 0;box-sizing: border-box; font-family: "HP Simplified Light", "Arial";font-weight: bold;}
+nav::after{content: ''; clear: both; display: table;}
+.logo img{float: left;  padding-left: 20px;padding-top: 1px; height:60px; width: 70px;}
+nav ul{float: left; list-style: none; margin-right: 40px; position: relative;}
+nav ul li{ display: inline-block;  margin: 0 5px;}
+nav ul li a{color: black; text-decoration: none; line-height: 50px; font-size: 18px; padding: 8px 8px;}
+nav ul ul{position: absolute; top: 90px;  border-top: 3px solid cyan; opacity: 0; visibility: hidden;transition:top .4s; }
+nav ul ul li{position: relative; margin: 0;padding: 0; width: 180px; float: none; display: list-item; border-bottom: 1px solid rgba(0,0,0,0.3); background: white;}
+nav ul li a:hover{ color: cyan;text-shadow: 1px 1px 5px blue}
+nav ul ul li a:hover{color:deeppink; box-shadow: none;text-shadow: 2px 3px 5px pink}
+nav ul li:hover > ul{opacity: 1; visibility: visible; top: 50px;}
+nav ul ul li a{line-height: 40px;}
+.slide img{width: 100%; height: 600px;margin-top: 8px; object-position: center;}
+
+.search_bar{padding:1px;font-size:2.4rem;float: left;}
+.search_bar input{margin:10px 0px 0px 0px;padding: 10px;width: 300px;height: 40px;}
+.search_bar img {margin-top: 10px;height: 1.5rem;position: absolute;top: 1.2rem;left: 800px;border: white;}
+
+.button:hover{cursor: pointer;}
+.search_bar:hover+.button{right: 0;top: 1.2rem;}
+.search_bar::placeholder{opacity: 5;}
+.cart img{border: 1px solid white;margin-top: 10px; margin-left: 80px;}
+.cart img:hover{cursor: pointer;}
+.login input {background-color:blue; margin-right:150px; margin-top: -45px; color: white;padding: 12px;float: right;width: 100px;border-radius: 5px;}
+.login input:hover{color: black; background: white; cursor: pointer;}
+.laptops_wrap{margin-top: 20px;}
+.laptops_wrap img{width:100%;height:500px;}
+
+.w1{width:350px;height: 400px;margin-top: 50px;margin-left: 60px;border: 1px solid white;float: left;padding-left:10px;}
+.w2{width:350px;height: 400px;margin-top: 50px;margin-left: 60px;border: 1px solid white;float: left;padding-left:10px;}
+.w3{width:350px;height: 400px;margin-top: 50px;margin-left: 60px;border: 1px solid white;float: left;padding-left:10px;}
+.w1,.w2,.w3,.w4 h5{margin-top: 10px;font-weight:30px;font-family: "HP Simplified Light", "Arial";}
+.w1,.w2,.w3,.w4 p,span{font-size: 16px;font-weight:50px;font-family: "HP Simplified Light", "Arial";}
+.w1,.w2,.w3,.w4 h2{font-family: "HP Simplified Light", "Arial";font-weight: 25;text-align: center;margin-top: 10px;}
+
+.button{display: inline-block;border: 2px solid darkblue;text-decoration: none;margin: 10px 5px;font-size: 18px;cursor: pointer;text-align: center;color: white;}
+.btn{padding: 10px  25px;border-radius: 5px;background-color:whitesmoke;font-weight: bold;color: blue;}
+.btn:hover{color: whitesmoke;background-color:rgb(67, 67, 241);}
+.btn1:hover{color: whitesmoke;background-color:rgb(67, 67, 241);}
+
+.btn1{padding: 10px  25px;border-radius: 5px;background-color:whitesmoke;font-weight: bold;color: blue;margin: 450px 0px 0px -950px;}
+
+.btn11{padding: 10px  25px;border-radius: 5px;background-color:whitesmoke;font-weight: bold;color: blue;}
+
+
+.btn2{padding: 10px  25px;border-radius: 5px;background-color:whitesmoke;font-weight: bold;color: blue;margin: -40px 0px 0px 970px;}
+
+
+
+.factor{background-color: white;width: 100%;height: 400px;margin: 550px 0px 0px 0px;}
+.factor h1{font-family: "HP Simplified Light", "Arial";font-weight: 45;text-align: center;font-size: 40px;font-weight: bold;margin-top: 500px;}
+
+.factor img{ float: left;width: 400px;height: 300px;margin-left: 200px;padding-left:10px ;
+    margin-top: 50px;border:1px solid white;background-color: #fff;}
+    .factor img:hover{}
+ .factor h2{font-family: "HP Simplified Light", "Arial";font-weight: 35;text-align:left;font-size: 30px;color: grey;margin-top: 390px;float: left;margin-left: -290px;}
+
+ .footer p{text-align: left;padding: 10px;font-weight: bold;font-family: "HP Simplified Light", "Arial";}
+ .footer  img{width: 25px;height: 20px;margin-left: 140px;float: left;margin-top: -40px}
+ 
+  h3{font-family: "HP Simplified Light", "Arial";font-size: 18px;} 
+ h6{color: white;margin: -40px 0px 0px 180px;font-size: 17px;}
+   .footer {background:rgb(119, 119, 121);height:440px;margin-top: 400px;}
+   .footer1,.footer2,.footer3,.footer4{float: left;margin: 0;padding: 0;padding-left: 90px;line-height: 30px;}
+   .footer1 ul li a{text-decoration: none;color: white;font-size: 15px;}.footer1 ul li  {list-style-type: none;}
+   .footer1 ul li:hover a{color: cyan;text-shadow: 1px 1px 5px blue}
+   .footer2 ul li a{text-decoration: none;color: white;font-size: 15px;}.footer2 ul li  {list-style-type: none;}
+   .footer2 ul li:hover a{color: cyan;text-shadow: 1px 1px 5px blue}
+   .footer3 ul li a{text-decoration: none;color: white;font-size: 15px;}.footer3 ul li  {list-style-type: none;}
+   .footer3 ul li:hover a{color: cyan;text-shadow: 1px 1px 5px blue}
+   .footer4 ul li a{text-decoration: none;color: white;font-size: 15px;}.footer4 ul li  {list-style-type: none;}
+   .footer4 ul li:hover a{color: cyan;text-shadow: 1px 1px 5px blue}
+   
+   
+   .footer-icons h3{margin: 0;padding: 0;margin-right: 450px;float: right;font-family: 'HPSimplifiedLight',arial;}
+   
+   .footer-icons{margin-top: 40px;line-height: 15px;margin: 0;padding: 0;}
+   .footer-icons a{margin: 20px 0px 0px -50px;float: left;}
+   .footer-icons a img:hover{opacity: 0.4}
+   
+   .footer-icons img{ display: inline-block;
+      width: 25px;height: 20px;cursor: pointer;border-radius: 4px;
+      font-size: 20px;color: #ffffff;text-align: center;margin: 25px 40px 0px 70px;}
+ 

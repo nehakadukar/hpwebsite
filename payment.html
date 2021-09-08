@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Css/paystyle.css">
+<link rel="stylesheet" href="css/commonstyle.css">
+</head>
+<body>
+  <div class="logo"><a href="#"><img src="Images/HP_logo.png" alt="Logo"></a></div>
+  <nav>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Explore</a>
+          <ul>
+              <li><a href="ink&toner.html">INK AND TONER</a></li>
+              <li><a href="gaming.html">GAMING</a></li>
+              <li><a href="carepack.html">CARE PACK</a></li>
+          </ul></li>
+          <li><a href="">Shop</a>
+              <ul>
+                  <li><a href="All Laptop.html">All LAPTOPS</a></li>
+                  <li><a href="monitors.html">MONITORS</a></li>
+                  <li><a href="dekstop.html">DEKSTOP</a></li>
+                  <li><a href="ink&toner.html">INK & TONER</a></li>
+                  <li><a href="printer.html">PRINTERS</a></li>
+                  <li><a href="scanner.html">SCANNERS</a></li>
+                  <li><a href="buying guides.html">BUYING GUIDE</a></li>
+                  <li><a href="Accessories.html">ACCESSORIES</a></li>
+              </ul> </li>
+          <li><a href="#">Support</a>
+              <ul>
+                  <li><a href="aboutus.html">ABOUT US</a></li>
+                  <li><a href="storeFAQ.html">STORE FAQ</a></li>
+                  <li><a href="H.T.O.html">HOW TO ORDER</a></li>
+                  <li><a href="payment.html">PAYMENT</a></li>
+                  <li><a href="Return Policy.html">RETURN POLICY</a></li>
+              </ul></li>
+          <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="search_bar">
+          <input type="text" name="search" placeholder="What can we help you find today?">
+          <img src="Images/Search-Icon.png" alt="search icon" class="button" width="32" height="10">
+          </div>
+      
+          <div class="cart">
+          <img src="Images/cart.png" alt="cart"width="40"height="40">
+          </div>
+          <div class="login">
+          <a href="login.html"><input type="button"value="Login"></a></div>
+  </nav>
+  
+<div class="contain">
+<h2 style="color: white;">PAYMENT FORM</h2>
+<div class="row">
+  <div class="col-60">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Neha G. Kadukar">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="Neha15@gmail.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="120 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="Nagpur">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="Maharashtra">
+              </div>
+              <div class="col-50">
+                <label for="zip">Pincode</label>
+                <input type="text" id="zip" name="zip" placeholder="440009">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <img src="Images/master.gif" alt="">
+              <img src="Images/paytm.gif" alt="">
+              <img src="Images/visa.gif" alt="">
+              <img src="Images/dis" alt="">
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+             <i class="fa fa-cc-discover" style="color:orange;"></i>
+              <i class="fa fa-cc-paypal" style="color:blueviolet;"></i>
+              
+             
+              
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="Neha G. Kadukar">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2020">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+      <p><a href="#">Product 1</a> <span class="price">Rs.500</span></p>
+      <p><a href="#">Product 2</a> <span class="price">Rs,100</span></p>
+      <p><a href="#">Product 3</a> <span class="price">Rs.1000</span></p>
+      <p><a href="#">Product 4</a> <span class="price">Rs.800</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>Rs.2400</b></span></p>
+    </div>
+  </div>
+</div></div>
+<footer style="margin-top: 20px;" class="footer">
+  <p>Country/region:</p><img src="Images/india.png" alt="Flag"width="20px"height="20px">
+  <h6>india</h6><br><hr>
+
+ <div class="footer1">
+ <ul>
+     <h3>About us</h3>
+     <li><a href="contact.html">CONTACT HP</a></li>
+     <li><a href="Buying guides.html">BUYING GUIDES</a></li>
+     
+ </ul>
+ </div>
+ <div class="footer2">
+ <ul>
+ <h3>SHOP</h3>
+     <li><a href="All Laptop.html">ALL LAPTOPS</a></li>
+     <li><a href="monitors.html">MONITORS</a></li>
+     <li><a href="dekstop.html">DEKSTOPS</a></li>
+     <li><a href="Ink&toner.html"">INK & TONER</a></li>
+     <li><a href="printer.html">PRINTER</a></li>
+     <li><a href="Gaming.html">GAMING</a></li>
+     <li><a href="Accessories.html">ACCESORIES</a></li>
+ </ul>
+ </div>
+ <div class="footer3">
+ <ul>
+     <h3>Support</h3>
+     <li><a href="aboutus.html">ABOUT US</a></li>
+     <li><a href="storeFAQ.html">STORE FAQ</a></li>
+     <li><a href="H.T.O.html">HOW TO ORDER</a></li>
+     <li><a href="payment.html">PAYMENT</a></li>
+     <li><a href="Return Policy.html">RETURN POLICY</a></li>
+     
+ </ul>
+ </div>
+
+
+ <div class="footer-icons">
+  <br> 
+<h3 style="padding: 0px;margin-right: 650px;">Stay Connected</h3>
+<a href="https://www.facebook.com/HPIndia/"><img style="margin-left: 250px;" src="Images/fbicon.png" alt="fb"width="40px"height="40px"></a>
+     <a href="https://twitter.com/hpindia/"><img src="Images/twitter.png" alt="insta"width="40px"height="40px"></a>
+    
+ </div>
+</footer>
+
+
+</body>
+</html>
+

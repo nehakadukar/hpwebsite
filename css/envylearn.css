@@ -1,0 +1,28 @@
+.envy{width: 100%;height: 700px;background-color: black;margin-top: 10px;}
+.envy img{width: 1300px;height: 550px;object-fit: cover;margin: 170px 0px 0px 100px;}
+.envy h2{font-size: 30px;text-align: center;font-family: "HP Simplified Regular";color: gold;margin: -650px 0px 0px 0px;}
+.envy h1{font-size: 40px;text-align: center;font-family: "HP Simplified Regular";color: white;}
+
+.envy1{background-color:lightgrey;width: 100%;height: 500px;margin-top: 50px;}
+    .envy1 img{width: 600px;height: 420px;object-fit: cover;float:left;margin: 60px 50px 50px 50px;}
+     .envy1 h2{text-align: center;margin: 150px 0px 0px 0px ;font-size: 40px;}
+    .envy1 p,.envy3{text-align: center;font-size: 20px;}
+    .btn{padding: 10px  25px;margin: 30px 0px 0px 260px;font-size: 15px;border:1px solid gold;border-radius: 5px;background-color:white;font-weight: bold;color:goldenrod;}
+.btn:hover,.btnnn:hover{color: white;background-color:goldenrod;}
+.btn-1,.btn-3{padding: 10px  25px;margin: 30px 0px 0px 0px;font-size: 15px;border:1px solid gold;background-color:goldenrod;font-weight: bold;color:white;}
+.btn-1:hover,.btn-3:hover{opacity: 0.7;}
+
+.envy2 h2{text-align: center;font-size: 40px;margin: 150px 0px 0px 280px;float: left;color: black;}
+.envy2 p{text-align: center;font-size: 20px;margin-left: 200px;float: left;}
+.envy2{background-color:rgb(255, 219, 225);width: 100%;height: 500px;margin-top: 10px;float: left;}
+.envy2 img{width: 600px;height: 420px;object-fit: cover;margin: 50px 0px 0px 50px;float: right;}
+.btn-2{padding: 10px  25px;margin: 30px 0px 0px 0px;font-size: 15px;border:1px solid gold;background-color:goldenrod;font-weight: bold;color:white;}
+.btn-2:hover{opacity: 0.7;}
+.btnn{padding: 10px  25px;margin: 330px 0px 0px -450px;font-size: 15px;border:1px solid gold;background-color:white;font-weight: bold;color:goldenrod;}
+.btnn:hover{color: white;background-color:goldenrod;border: goldenrod;}
+
+.envy3{background-color:lightgrey;width: 100%;height: 500px;margin-top:580px;}
+    .envy3 img{width: 600px;height: 420px;object-fit: cover;float:left;margin: 60px 50px 50px 50px;}
+     .envy3 h2{text-align: center;margin: 150px 0px 0px 0px ;font-size: 40px;}
+     .btnnn{padding: 10px  25px;margin: 30px 0px 0px -100px;font-size: 15px;border:1px solid gold;border-radius: 5px;background-color:white;font-weight: bold;color:goldenrod;}
+

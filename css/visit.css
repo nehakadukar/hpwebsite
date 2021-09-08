@@ -1,0 +1,17 @@
+.button:hover{cursor: pointer;}
+.search_bar:hover+.button{right: 0;top: 1.2rem;}
+.search_bar::placeholder{opacity: 5;}
+.cart img{border: 1px solid white;margin-top: 10px; margin-left: 80px;}
+.cart img:hover{cursor: pointer;}
+.login input {background-color:blue; margin-right:150px; margin-top: -45px; color: white;padding: 12px;float: right;width: 100px;border-radius: 5px;}
+.login input:hover{color: black; background: white; cursor: pointer;}
+.store h1{font-size: 20px;margin: 100px 0px 0px 100px;font-family: "HP Simplified Regular";font-weight: normal;}
+.vl{border-left: 1px solid lightgrey;height: 300px;margin-left: 450px;margin-top: -110px;}
+.topic{font-size: 18px;margin-left: 100px;color:black;text-decoration:none;}  
+ .topic:hover{color: blue;text-decoration: underline solid blue;}  
+ .card1{margin-left: 500px;margin-top:-320px;font-size: 20px;line-height: 30px;font-family: "HP Simplified Regular";}
+  .india{margin: 100px 0px 10px 70px;font-size: 20px;}
+ .visa{margin-left: 50px;}  
+ p{font-size: 18px;}
+ .link{color: rgb(67, 193, 243);text-decoration: none;} 
+      

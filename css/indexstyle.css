@@ -1,0 +1,19 @@
+
+.head1 h3{ font-family: 'HPSimplified';font-size: 2rem; line-height: 2.25rem;  font-weight: 600; text-align: center;}
+.head1 p{font-family: 'HPSimplifiedLight',arial; font-size: 1.2rem; line-height: 0.9; letter-spacing: 0; font-weight: 400; text-align: center;}
+
+.mainbox{width: 50%; height: 540px;float: left;}
+.img1 img{margin: 20px 50px;height: 500px;transition: 0.5s;}
+.img2 img{margin: 20px; height: 500px;transition: 0.5s;}
+
+.img1 img:hover 
+{-ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    
+ }
+  .img2 img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }

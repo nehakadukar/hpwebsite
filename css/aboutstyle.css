@@ -1,0 +1,32 @@
+iframe{margin-top: 30px;}
+    .about{background-color:whitesmoke;width: 100%;height: 270px;}
+    .about h1{font-size: 30px;font-family:"HP Simplified Light", "Arial" ;text-align: center;}
+    .about p{font-size: 20px;font-family:"HP Simplified Light", "Arial";text-align: center;}
+    .about b{font-size: 20px;font-family:"HP Simplified Light", "Arial";text-align: center;}
+    .btn{padding: 10px  25px;border-radius: 5px;background-color:rgb(67, 67, 241);font-weight: bold;color:white;margin-left: 670px;border: 1px solid blue;margin-bottom: 20px;}
+    .btn:hover{color: rgb(67, 67, 241);background-color:white;}
+    .office h2,.container h2{font-size: 30px;font-family:"HP Simplified Light", "Arial" ;text-align: center;}
+    .about_us{font-size: 20px;font-family:"HP Simplified Light", "Arial";text-align: center;}
+    .container{width: 100%;height: 550px;background-color:white;margin-top: 0px;}
+    .head1{margin: 310px 0px 0px 60px;font-size: 30px;}
+    .e1 img{margin: -25px 0px 0px 60px;float: left;}
+    .e2 img{margin: -450px 0px 00px 540px;float: left;}
+    .e3 img{margin: -450px 0px 0px 1020px;float: left;}
+    .ec1{margin: 0px 0px 0px 60px;font-size: 20px;}
+    .ec2{margin: 10px 0px 0px 60px;color: blue;font-size: 20px;cursor: pointer;}
+    .head2{margin: -130px 0px 0px 550px;font-size: 30px;}
+    .ec3{margin: 10px 0px 0px 550px;font-size: 20px;}
+    .ec4{margin: 10px 0px 0px 550px;color: blue;font-size: 20px;cursor: pointer;}
+    .head3{margin: -130px 0px 0px 1040px;font-size: 30px;}
+    .ec5{margin: 10px 0px 0px 1040px;font-size: 20px;}
+    .ec6{margin: 0px 0px 0px 1040px;color: blue;font-size: 20px;cursor: pointer;}
+    .ec6:hover{color: purple;}
+
+    .container1{width: 100%;height: 550px;background-color:white;margin-top: 0px;}
+    .I1 img{float: left;margin: -25px 0px 0px 60px;}
+    .I2 img{float: left;margin:  -450px 0px 00px 540px;}
+    .I3 img{float: left;margin: -450px 0px 0px 1020px;}
+    .footer p{text-align: left;padding: 10px;font-weight: bold;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+  .footer  img{width: 25px;height: 20px;margin-left: 140px;margin-top: 20px;}
+  .ind p{margin-top: -50px;}
+  

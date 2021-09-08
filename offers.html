@@ -1,0 +1,143 @@
+<html>
+<head>
+    <style>
+          nav::after{content: ''; clear: both; display: table;}
+nav ul{float: left; list-style: none; margin-left: 140px; position: relative;margin-top: -90px;}
+nav ul li{ display: inline-block;  margin: 0 5px;margin-top: 40px;}
+nav ul li a{color: black; text-decoration: none; line-height: 50px; font-size: 18px; padding: 8px 8px;}
+nav ul li a b{font-family: cursive;}
+nav ul ul{position: absolute; top: 90px; opacity: 0; visibility: hidden;transition:top .8s; }
+nav ul ul li{position: relative; margin: 0;padding: 0; width: 150px; float: none; display: list-item; border:1px solid rgba(0,0,0,0.3); background: white;}
+nav ul li:hover{border-bottom: 2px solid navy;}
+nav ul li a:hover{ color: cyan;text-shadow: 1px 1px 5px blue}
+nav ul ul li a:hover{color:deeppink; box-shadow: none;text-shadow: 2px 3px 5px pink}
+nav ul li:hover > ul{opacity: 1; visibility: visible; top: 50px;margin: 0;}
+nav ul ul li a{line-height: 40px;}
+
+
+.search_bar{padding:10px;font-size:2.4rem;float: left;margin-left: 700px;}
+.search_bar input{margin:-60px 0px 0px 0px;padding: 20px;width: 400px;height: 20px;}
+.search_bar img {margin-top: 17px;margin-right: 400px;border: white;}
+.cart img{margin-right:330px ;float: right;margin-top:-60px;}
+.button{height: 2rem;position: absolute;top: 1.5rem;right: 1rem;}
+.button:hover{cursor: pointer;}
+.search_bar:hover+.button{right: 0;top: 1.8rem;height: 2.5rem;}
+.search_bar::placeholder{opacity: 5;}
+
+.so1 h1{font-size: 50px;font-family: cursive;text-align: center;}
+.so1 h1:hover{text-transform: uppercase;text-shadow: 0 0 0.025em #fff, 0 0 0.05em #fff,0 0 0.01em #ecd3d394,0 0 0.02em #40443600,0 0 0.025em #6e7b4a,0 0 0.75em #83a1ce3d,0 0 1.25em #fa26a0,0 0 1.75em rgb(68 43 49 / 50%);}
+.offers{widows: 100%;height: 600px;background-color:white;}
+.sale1{background-color: rgb(237, 238, 238);width: 400px;height: 500px;margin-top: 60px;float: left;margin-left: 80px;}
+.sale1 img{width: 300px;height: 200px;margin: 50px;}
+.sale1 p{text-align: center;margin-top: -40px;}
+.sale1 h3{text-align: center;margin-top:-10px;font-family: cursive;}
+span {text-align: center;margin-left: 80px;}
+.sale2{background-color:rgb(237, 238, 238);width: 400px;height: 500px;margin-top: 60px;float: left;margin-left: 80px;}
+.sale2 img{width: 300px;height: 200px;margin: 50px;}
+.sale2 p{text-align: center;margin-top: -40px;}
+.sale2 h3{text-align: center;margin-top:-10px;font-family: cursive;}
+.sale3{background-color: rgb(237, 238, 238);width: 400px;height: 500px;margin-top: 60px;float: left;margin-left: 80px;}
+.sale3 img{width: 300px;height: 200px;margin: 50px;}
+.sale3 p{text-align: center;margin-top: -40px;}
+.sale3 h3{text-align: center;margin-top:-10px;font-family: cursive;}
+.btn1,.btn2,.btn3{background-color: white;color: blue; border: 2px solid navy;padding: 10px 10px ;width: 100px;margin-left: 140px;margin-top: 50px;}
+.btn1:hover{opacity: 0.5;color: deeppink;}
+.btn2:hover{opacity: 0.5;color: deeppink;}
+.btn3:hover{opacity: 0.5;color: deeppink;}
+.cat h2{font-size: 40px;font-family:initial}
+.shop{width: 100%;height: 250px;padding: 10px;margin: 10px 10px 10px 10px;float: left;background-color: white;margin-left: 90px;}
+.s1 img {width: 200px;height: 200px;float: left;padding: 5px;margin: 10px 10px 10px 10px;}
+
+.s2 img {width: 200px;height: 200px;float: left;padding: 5px;margin: 10px 10px 10px 10px;}
+.s3 img {width: 200px;height: 200px;float: left;padding: 5px;margin: 10px 10px 10px 10px;}
+.s4 img {width: 200px;height: 200px;float: left;padding: 5px;margin: 10px 10px 10px 10px;}
+.s5 img {width: 200px;height: 200px;float: left;padding: 5px;margin: 10px 10px 10px 10px;}
+.s6 img {width: 200px;height: 200px;float: left;padding: 5px;margin: 10px 10px 10px 10px;}
+.sp1,sp2,.sp3{text-align: center;font-size: 30px;font-weight: bold;font-family: inherit;float: left;margin: 30px 20px 20px 20px ;}
+    </style>
+</head>
+<body>
+    <div class="logo"> 
+        <img src="hp-logo-vector.jpg" alt="hplogo"width="90"height="70"> 
+        <nav>
+            <ul>
+                <li><a href="Home.html"><b>Home</b></a></li>
+                <li><a href="#"><b>Explore</b></a>
+                <ul>
+                    <li><a href="ink&toner.html">INK AND TONER</a></li>
+                    <li><a href="gaming.html">GAMING</a></li>
+                    <li><a href="buying guides.html">BUYING GUIDE</a></li>
+                </ul></li>
+                <li><a href="#"><b>Shop</b></a>
+                    <ul>
+                    <li><a href="offers.html">STORE OFFERS - SALES</a></li>
+                    <li><a href="#">HP .com store</a></li>
+                    <li><a href="#">LATEST PRODUCT</a></li>
+                    <li><a href="All Laptop.html">All LAPTOPS</a></li>
+                    <li><a href="monitor.html">MONITORS</a></li>
+                    <li><a href="dekstop.html">DEKSTOP</a></li>
+                    <li><a href="ink&toner.html">INK & TONER</a></li>
+                    <li><a href="printer.html">PRINTERS</a></li>
+                    <li><a href="scanner.html">SCANNERS</a></li>
+                    <li><a href="buying guides.html">BUYING GUIDE</a></li>
+                    <li><a href="Accessories.html">ACCESSORIES</a></li>
+                </ul> 
+                </li>
+                <li><a href="#"><b>Support</b></a>
+                    <ul>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="storeFAQ.html">STORE FAQ</a></li>
+                    <li><a href="How to order.html">HOW TO ORDER</a></li>
+                    <li><a href="payment.html">PAYMENT</a></li>
+                    <li><a href="Return Policy.html">RETURN POLICY</a></li>
+                </ul>
+                </li>
+                <li><a href="contact.html"><b>Contact Us</b></a></li>
+                
+            </ul>
+        </nav>
+        <div class="search_bar">
+            <input type="text" name="search"maxlength="12" placeholder="What can we help you find today?">
+            <img src="searcg.png" alt="search icon" class="button"width="40"height="7">
+            </div>
+        
+            <div class="cart">
+            <img src="cart1.jpg" alt="cart"width="60"height="40">
+            </div>
+
+    <div class="so1"><h1>Store Offers</h1></div><hr>
+    <div class="offers">
+        <div class="sale1"><img src="Images/pcoffer.jpg" alt="">
+        <p>start 20/10/2020 11:40 - 25/11/2020 24:00 </p><br>
+        <h3>DEALS WAALI DIWALI</h3>
+      <span>Buy a new HP PC and get 5% cashback*</span>
+       <button class="btn1">Shop Now</button>
+        </div>
+        <div class="sale2"><img src="Images/inkoffer.jpg" alt="">
+            <p>start 2/10/2020 10:40 - 20/11/2020 20:00 </p><br>
+            <h3>INK AND SUPPLIES</h3>
+            <span>Cash on Delivery avaliable Stock up <br>on HP Original Supplies</span>
+     <button class="btn2">Shop Now</button>
+         </div>
+        
+        <div class="sale3"><img src="Images/printeroffer.jpg" alt="">
+            <p>start 15/9/2020 12:40 - 25/12/2020 15:00 </p><br>
+            <h3>NEVERSTOP PRINTER OFFER</h3>
+            <span>FREE Toner Reload kit <br>plus, enjoy 0% no cost EMI on HP Neverstop Printers <br> purchases</span>
+             <button class="btn3">Shop Now</button>
+        </div>
+        
+    </div>
+    <div class="cat"><h2>Shop By Category</h2></div>
+<div class="shop">
+<div class="s1"><img src="dekstop_icon.jpg" alt=""><br><p class="sp1">Dekstop</p></div>
+<div class="s2"><img src="monitor_icon.jpg" alt=""><p class="sp2">Monitor</p></div>
+<div class="s3"><img src="laptops_icon.jpg" alt=""><p class="sp3">Laptop</p></div>
+<div class="s4"><img src="printer_icon.jpg" alt=""><p class="sp4">Printer</p></div>
+<div class="s5"><img src="ink_toner_icon.jpg" alt=""><p class="sp5">Ink & Toner</p></div>
+<div class="s6"><img src="keyboard_icon.jpg" alt=""><p class="sp6">Accessories</p></div>
+
+</div>
+
+</body>
+</html>

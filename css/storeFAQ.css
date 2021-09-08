@@ -1,0 +1,11 @@
+        .store h1{font-size: 35px;margin: 100px 0px 0px 100px;font-family: "HP Simplified Regular";font-weight: normal;}
+        .vl{border-left: 1px solid lightgrey;height: 300px;margin-left: 450px;margin-top: -40px;}
+        .que a{text-decoration: none;font-weight: normal;color: black;display: inline-block;font-family: "HP Simplified Regular";font-size: 18px;}
+        .que a:hover{color: rgb(18, 190, 190);}
+        .que a::after{display:block;transition: width .8s;content:'';background-color:rgb(8, 149, 196);width: 0;height: 2px;}
+        .que a:hover::after{width:100%;}
+        .que h2{margin: 10px 0px 0px 500px;line-height: 30px;font-family: "HP Simplified Regular";font-weight:bolder;font-size: 22px;line-height: 30px;}
+        .que a{margin: 10px 0px 0px 500px;font-family: "HP Simplified Regular";line-height: 20px;}
+        .que{margin: -300px 00px 0px 0px;}
+        .que1{float: right;margin: -520px 390px 0px 0px;}
+    
